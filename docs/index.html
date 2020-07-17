@@ -6,18 +6,18 @@
   <title>Accesibility</title>
 </head>
 <body>
-  <h1>Embedded Google Slides - Role complementary</h1>
-  <div class="container" aria-label="description" role="complementary">
-    <iframe title="This is the title" src="https://docs.google.com/presentation/d/e/2PACX-1vT4_C0J5Y2oxa9m-KuSf0D4Za4H0Zis2G_n-kG6dE5AdA6c9hxqbRtmIPzv1QOukEpGarI3b53y5-5C/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  <h1 aria-label="this is a heading">visible title</h1>
+  <div class="container" aria-label="this is the description">
+    <iframe title="This is the iframe title" src="https://docs.google.com/presentation/d/e/2PACX-1vT4_C0J5Y2oxa9m-KuSf0D4Za4H0Zis2G_n-kG6dE5AdA6c9hxqbRtmIPzv1QOukEpGarI3b53y5-5C/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
   </div>
-  <button aria-label="This is the button description">This is a button</button>
-  <p aria-label="This is the paragraph description">This is the end of the page</p>
-  <div aria-label="this is a content block description">
-    content block
+  <button aria-label="This is the button description">visible text</button>
+  <p aria-label="This is the paragraph description">visible text</p>
+  <div aria-label="this is the div description">
+    visible text
   </div>
   <section aria-label="this is a content block description">
-    Another content block
+    visible text
   </section>
-  <a aria-label="Click here to go to Google" href="http://www.google.com">Go to Google</a>
+  <a aria-label="this is the link description" href="http://www.google.com">Go to Google</a>
 </body>
 </html>
